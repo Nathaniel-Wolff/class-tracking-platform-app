@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import json
+import docx
 from jinja2 import Environment
 from base_classes import Student, AnInstructor, AClass, fix_series_format, load_json_from_S3, group_dict_to_dataframes_by_index
 import boto3
